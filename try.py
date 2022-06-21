@@ -12,17 +12,7 @@ with mic as source:
     print("Time's up, Thanks!!")  
  
 try:  
-    print("Text: " + r.recognize_google(audio));  
-except:  
-    print("unable to understand")  
-    pass;  
-search=r.recognize_google(audio)
-#start
-size = len(search)
-if search[-4:]==".com":
-    search==search
-else:
-    search=search[:-1]
+
 #end
 print("opening browser...........")
 webbrowser.register('chrome',
